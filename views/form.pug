@@ -1,0 +1,18 @@
+html
+  head
+    title Form
+  body
+    form(method='post' action='/submit')
+      label(for='name') Name:
+      input(type='text' name='name' id='name')
+
+      label(for='age') Age:
+      input(type='text' name='age' id='age')
+
+      label(for='mobile') Mobile:
+      input(type='text' name='mobile' id='mobile')
+
+      label(for='address') Address:
+      input(type='text' name='address' id='address')
+
+      input(type='submit' value='Submit')
